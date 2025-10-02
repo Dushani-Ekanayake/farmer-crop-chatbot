@@ -25,7 +25,7 @@ To run this application, you need:
 **🔒 Security Warning: API Key**
 * CRITICAL: Do not push your personal API key to a public GitHub repository.
 
-**Before committing your code:*
+*Before committing your code:*
 
 * Open the farmer_ai_chatbot.html file.
 
@@ -49,7 +49,7 @@ The chat interface will load instantly.
 
 * Styling: Tailwind CSS (via CDN)
 
-**Generative AI Core:*
+*Generative AI Core:*
 
 * Text/Multimodal: gemini-2.5-flash-preview-05-20
 
