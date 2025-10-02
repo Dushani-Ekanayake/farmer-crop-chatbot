@@ -27,13 +27,13 @@ To run this application, you need:
 
 **Before committing your code:*
 
-*Open the farmer_ai_chatbot.html file.
+* Open the farmer_ai_chatbot.html file.
 
-*Find the const apiKey line in the <script> block.
+* Find the const apiKey line in the <script> block.
 
-*Replace your personal key with an empty string: const apiKey = "";
+* Replace your personal key with an empty string: const apiKey = "";
 
-*Instruct users/contributors to obtain their own key and insert it for local testing.
+* Instruct users/contributors to obtain their own key and insert it for local testing.
 
 **🏃 How to Run**
 * Since this is a single, self-contained HTML file:
@@ -45,17 +45,17 @@ To run this application, you need:
 The chat interface will load instantly.
 
 **⚙️ Technology Stack**
-*Frontend: HTML5, JavaScript (Vanilla JS)
+* Frontend: HTML5, JavaScript (Vanilla JS)
 
-*Styling: Tailwind CSS (via CDN)
+* Styling: Tailwind CSS (via CDN)
 
 **Generative AI Core:*
 
-*Text/Multimodal: gemini-2.5-flash-preview-05-20
+* Text/Multimodal: gemini-2.5-flash-preview-05-20
 
-*Text-to-Speech (TTS): gemini-2.5-flash-preview-tts
+* Text-to-Speech (TTS): gemini-2.5-flash-preview-tts
 
-*Input/Output: Browser's native SpeechRecognition API (STT).
+* Input/Output: Browser's native SpeechRecognition API (STT).
 
 📝 Troubleshooting
 Voice Input Disabled: Your browser may not support the native Speech-to-Text API. Use the keyboard to input queries instead.
