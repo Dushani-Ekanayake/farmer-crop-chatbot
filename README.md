@@ -28,26 +28,20 @@ Before committing your code:
 
 Open the farmer_ai_chatbot.html file.
 
-Find the const apiKey line in the <script> block.
+**Find the const apiKey line in the <script> block.
 
-Replace your personal key with an empty string: const apiKey = "";
+**Replace your personal key with an empty string: const apiKey = "";
 
-Instruct users/contributors to obtain their own key and insert it for local testing.
+**Instruct users/contributors to obtain their own key and insert it for local testing.
 
 🏃 How to Run
-Since this is a single, self-contained HTML file:
+* Since this is a single, self-contained HTML file:
 
-Create File: Create a new file named farmer_ai_chatbot.html and paste the code into it.
+* Create File: Create a new file named farmer_ai_chatbot.html and paste the code into it.
 
-Open in Browser: Double-click the file or use VS Code's "Open with Live Server" extension.
+* Open in Browser: Double-click the file or use VS Code's "Open with Live Server" extension.
 
 The chat interface will load instantly.
-
-🔗 Project Repository
-While this application runs as a single HTML file, the source code and development history are managed on GitHub. You can find the repository and contribute here:
-
-GitHub Repository URL
-(Note: Replace the placeholder URL above with your actual repository link.)
 
 ⚙️ Technology Stack
 Frontend: HTML5, JavaScript (Vanilla JS)
