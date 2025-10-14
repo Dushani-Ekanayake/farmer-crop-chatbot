@@ -1,5 +1,5 @@
 // NOTE: The API key is included here for local execution.
-const apiKey = "AIzaSyA9KeVx1I5UNsgQrqLVWVXM6MnqwuFBCMo";
+const apiKey = "";// your api key 
 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
 const ttsApiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent?key=${apiKey}`;
 
@@ -559,4 +559,5 @@ function setupFormSubmission() {
 }
 
 // Start the application when the script loads
+
 document.addEventListener('DOMContentLoaded', initializeChatbot);
