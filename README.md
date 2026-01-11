@@ -37,7 +37,7 @@ Google Gemini API – AI text, vision, and TTS
 
 Clone the repository
 
-git clone 
+git clone : https://github.com/Dushani-Ekanayake/farmer-crop-chatbot.git
 
 
 Open index.html in a browser
