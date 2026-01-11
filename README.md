@@ -4,6 +4,7 @@ Agri-Gemini is a web-based AI assistant designed to help farmers and agriculture
 
 The assistant supports text input, voice input, image analysis, and text-to-speech (TTS), providing a modern and interactive user experience.
 
+
 ✨ Key Features
 
 🌱 Agriculture-focused AI responses (crop science, pests, diseases, markets)
@@ -19,6 +20,7 @@ The assistant supports text input, voice input, image analysis, and text-to-spee
 💬 Chat-style UI with a clean agriculture-themed design
 
 📱 Responsive and mobile-friendly
+
 
 
 🛠️ Technologies Used
@@ -48,6 +50,7 @@ const apiKey = "YOUR_API_KEY_HERE";
 ⚠️ Important:
 Never expose real API keys in public repositories.
 For production, use environment variables or a backend proxy.
+
 
 🧠 System Prompt Design
 
@@ -89,6 +92,7 @@ Added clear error messages in the UI
 
 Implemented fetchWithBackoff() with retry logic
 
+
 2️⃣ Too Many Requests (429 Error)
 
 Problem:
@@ -104,6 +108,7 @@ await new Promise(resolve => setTimeout(resolve, delay));
 
 
 This automatically retries requests with increasing delays.
+
 
 3️⃣ Voice Input Not Working in Some Browsers
 
@@ -124,6 +129,7 @@ Disabled mic button if unsupported
 
 Displayed user-friendly status messages
 
+
 4️⃣ Image Not Displaying After Upload
 
 Problem:
@@ -139,6 +145,7 @@ Converted image to Base64 correctly
 Stored only the Base64 data for API payload
 
 Used full Data URL for UI preview
+
 
 5️⃣ Audio Playback Issues (TTS)
 
@@ -162,14 +169,7 @@ Create an images/ folder and add screenshots:
 
 ## Screenshots
 
-### Chat Interface
-![Chat UI](images/chat-ui.png)
-
-### Image Analysis
-![Image Upload](images/image-analysis.png)
-
-### Voice & TTS
-![Voice Input](images/voice-tts.png)
+<img width="694" height="987" alt="image" src="https://github.com/user-attachments/assets/7ed6772b-7661-41b5-aa0d-f1580c27ea43" />
 
 🔮 Future Improvements
 
