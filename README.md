@@ -1,5 +1,7 @@
 🌾 Agri-Gemini – AI Assistant for Smart Farming
 
+## Visit : https://farmer-crop-chatbot.vercel.app/
+
 Agri-Gemini is a web-based AI assistant designed to help farmers and agriculture students get quick, reliable, and practical advice related to crop health, farm management, sustainable agriculture, and current market trends.
 
 The assistant supports text input, voice input, image analysis, and text-to-speech (TTS), providing a modern and interactive user experience.
